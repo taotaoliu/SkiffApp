@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0569E9162088EF3200023AC0 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0569E9132088EF3100023AC0 /* ProtocolBuffers.framework */; };
+		0569E9172088EF3200023AC0 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0569E9132088EF3100023AC0 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0569E91A2088EF3200023AC0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0569E9152088EF3100023AC0 /* CocoaAsyncSocket.framework */; };
+		0569E91B2088EF3200023AC0 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0569E9152088EF3100023AC0 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0569E91F2088FAF700023AC0 /* Person.proto in Resources */ = {isa = PBXBuildFile; fileRef = 0569E91D2088FAF700023AC0 /* Person.proto */; };
+		0569E9202088FAF700023AC0 /* Person.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569E91E2088FAF700023AC0 /* Person.proto.swift */; };
+		05F107E91F40407900CCE1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F107E81F40407900CCE1EA /* AppDelegate.swift */; };
+		05F107EB1F40407900CCE1EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F107EA1F40407900CCE1EA /* ViewController.swift */; };
+		05F107EE1F40407900CCE1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F107EC1F40407900CCE1EA /* Main.storyboard */; };
+		05F107F01F40407900CCE1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F107EF1F40407900CCE1EA /* Assets.xcassets */; };
+		05F107F31F40407900CCE1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F107F11F40407900CCE1EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0569E91C2088EF3200023AC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0569E91B2088EF3200023AC0 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				0569E9172088EF3200023AC0 /* ProtocolBuffers.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0569E90B2088EED000023AC0 /* XMPPFrameworkSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPPFrameworkSwift.framework; path = Frameworks/XMPPFrameworkSwift.framework; sourceTree = "<group>"; };
+		0569E90C2088EED000023AC0 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Frameworks/ProtocolBuffers.framework; sourceTree = "<group>"; };
+		0569E9132088EF3100023AC0 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Frameworks/ProtocolBuffers.framework; sourceTree = "<group>"; };
+		0569E9152088EF3100023AC0 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Frameworks/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		0569E91D2088FAF700023AC0 /* Person.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.proto; sourceTree = "<group>"; };
+		0569E91E2088FAF700023AC0 /* Person.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.proto.swift; sourceTree = "<group>"; };
+		05F107E51F40407900CCE1EA /* SkiffApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiffApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F107E81F40407900CCE1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F107EA1F40407900CCE1EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05F107ED1F40407900CCE1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F107EF1F40407900CCE1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F107F21F40407900CCE1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05F107F41F40407900CCE1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F107E21F40407900CCE1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0569E91A2088EF3200023AC0 /* CocoaAsyncSocket.framework in Frameworks */,
+				0569E9162088EF3200023AC0 /* ProtocolBuffers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0569E90A2088EED000023AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0569E90C2088EED000023AC0 /* ProtocolBuffers.framework */,
+				0569E90B2088EED000023AC0 /* XMPPFrameworkSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05F107DC1F40407900CCE1EA = {
+			isa = PBXGroup;
+			children = (
+				05F107FE1F4088A700CCE1EA /* Framework */,
+				05F107E71F40407900CCE1EA /* SkiffApp */,
+				05F107E61F40407900CCE1EA /* Products */,
+				0569E90A2088EED000023AC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05F107E61F40407900CCE1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F107E51F40407900CCE1EA /* SkiffApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F107E71F40407900CCE1EA /* SkiffApp */ = {
+			isa = PBXGroup;
+			children = (
+				0569E91D2088FAF700023AC0 /* Person.proto */,
+				0569E91E2088FAF700023AC0 /* Person.proto.swift */,
+				05F107E81F40407900CCE1EA /* AppDelegate.swift */,
+				05F107EA1F40407900CCE1EA /* ViewController.swift */,
+				05F107EC1F40407900CCE1EA /* Main.storyboard */,
+				05F107EF1F40407900CCE1EA /* Assets.xcassets */,
+				05F107F11F40407900CCE1EA /* LaunchScreen.storyboard */,
+				05F107F41F40407900CCE1EA /* Info.plist */,
+			);
+			path = SkiffApp;
+			sourceTree = "<group>";
+		};
+		05F107FE1F4088A700CCE1EA /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0569E9152088EF3100023AC0 /* CocoaAsyncSocket.framework */,
+				0569E9132088EF3100023AC0 /* ProtocolBuffers.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F107E41F40407900CCE1EA /* SkiffApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F107F71F40407900CCE1EA /* Build configuration list for PBXNativeTarget "SkiffApp" */;
+			buildPhases = (
+				05F107E11F40407900CCE1EA /* Sources */,
+				05F107E21F40407900CCE1EA /* Frameworks */,
+				05F107E31F40407900CCE1EA /* Resources */,
+				0569E91C2088EF3200023AC0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkiffApp;
+			productName = OurDatingApp;
+			productReference = 05F107E51F40407900CCE1EA /* SkiffApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F107DD1F40407900CCE1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = taotao;
+				TargetAttributes = {
+					05F107E41F40407900CCE1EA = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 05F107E01F40407900CCE1EA /* Build configuration list for PBXProject "SkiffApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F107DC1F40407900CCE1EA;
+			productRefGroup = 05F107E61F40407900CCE1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F107E41F40407900CCE1EA /* SkiffApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F107E31F40407900CCE1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F107F31F40407900CCE1EA /* LaunchScreen.storyboard in Resources */,
+				0569E91F2088FAF700023AC0 /* Person.proto in Resources */,
+				05F107F01F40407900CCE1EA /* Assets.xcassets in Resources */,
+				05F107EE1F40407900CCE1EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F107E11F40407900CCE1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F107EB1F40407900CCE1EA /* ViewController.swift in Sources */,
+				0569E9202088FAF700023AC0 /* Person.proto.swift in Sources */,
+				05F107E91F40407900CCE1EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F107EC1F40407900CCE1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F107ED1F40407900CCE1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F107F11F40407900CCE1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F107F21F40407900CCE1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F107F51F40407900CCE1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F107F61F40407900CCE1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F107F81F40407900CCE1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SkiffApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huige.OurDatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05F107F91F40407900CCE1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SkiffApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huige.OurDatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F107E01F40407900CCE1EA /* Build configuration list for PBXProject "SkiffApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F107F51F40407900CCE1EA /* Debug */,
+				05F107F61F40407900CCE1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F107F71F40407900CCE1EA /* Build configuration list for PBXNativeTarget "SkiffApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F107F81F40407900CCE1EA /* Debug */,
+				05F107F91F40407900CCE1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F107DD1F40407900CCE1EA /* Project object */;
+}

@@ -1,0 +1,6 @@
+github "CocoaLumberjack/CocoaLumberjack" "3.4.2"
+github "alexeyxo/protobuf-swift" "4.0.1"
+github "chrisballinger/libidn-framework" "1.33.1"
+github "robbiehanson/CocoaAsyncSocket" "7.6.3"
+github "robbiehanson/KissXML" "5.2.2"
+github "robbiehanson/XMPPFramework" "5e6227bfa5f194d257e89f1f3cc0c55c7ec5275d"

@@ -1,0 +1,13 @@
+{
+  "commitish" : "4.0.1",
+  "iOS" : [
+    {
+      "name" : "ProtocolBuffers",
+      "hash" : "b1677b06f42a2c9a3f1bf0836ef101857157f991967ed362892d05150bfa96a9"
+    },
+    {
+      "name" : "ProtocolBuffers",
+      "hash" : "b1677b06f42a2c9a3f1bf0836ef101857157f991967ed362892d05150bfa96a9"
+    }
+  ]
+}

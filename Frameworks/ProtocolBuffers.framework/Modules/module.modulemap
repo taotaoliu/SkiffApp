@@ -1,0 +1,4 @@
+framework module ProtocolBuffers {
+    header "ProtocolBuffers-Swift.h"
+    requires objc
+}
